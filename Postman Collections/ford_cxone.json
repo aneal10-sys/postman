@@ -130,6 +130,12 @@
 						"disableBodyPruning": true
 					},
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "{{access_token}}"
+							}
+						},
 						"method": "GET",
 						"header": [
 							{
@@ -142,7 +148,7 @@
 							}
 						],
 						"url": {
-							"raw": "https://api-na1.niceincontact.com/incontactapi/services/v34.0/script-folders?folder=GithubTesting%5Cqa%5Cmain&top=5",
+							"raw": "https://api-na1.niceincontact.com/incontactapi/services/v34.0/script-folders?folder=test&top=5",
 							"protocol": "https",
 							"host": [
 								"api-na1",
@@ -158,7 +164,7 @@
 							"query": [
 								{
 									"key": "folder",
-									"value": "GithubTesting%5Cqa%5Cmain"
+									"value": "test"
 								},
 								{
 									"key": "top",
