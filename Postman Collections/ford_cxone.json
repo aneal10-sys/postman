@@ -31,6 +31,18 @@
 						"header": []
 					},
 					"response": []
+				},
+				{
+					"name": "List skill agents",
+					"id": "d8919eb5-1c23-4ef7-849d-8ded68292a68",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
 			"id": "4e0996d0-8cf5-4375-8dc0-ffe8c4085a58"
