@@ -321,7 +321,7 @@
 								"token": "{{access_token}}"
 							}
 						},
-						"method": "GET",
+						"method": "DELETE",
 						"header": [
 							{
 								"key": "accept",
@@ -333,7 +333,7 @@
 							}
 						],
 						"url": {
-							"raw": "https://api-na1.niceincontact.com/incontactapi/services/v34.0/scripts?scriptId=316326796",
+							"raw": "https://api-na1.niceincontact.com/incontactapi/services/v34.0/scripts?scriptPath=test\\holdmusic_test",
 							"protocol": "https",
 							"host": [
 								"api-na1",
@@ -348,8 +348,9 @@
 							],
 							"query": [
 								{
-									"key": "scriptId",
-									"value": "316326796"
+									"key": "scriptPath",
+									"value": "test\\holdmusic_test",
+									"type": "text"
 								}
 							]
 						}
