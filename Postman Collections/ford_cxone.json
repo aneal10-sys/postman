@@ -391,6 +391,11 @@
 			"id": "29388d0f-c32c-4a25-8b7e-a5e8b34c9caa"
 		},
 		{
+			"name": "SmartReach",
+			"item": [],
+			"id": "235d1575-8be7-4d86-9487-e1b95102e653"
+		},
+		{
 			"name": "Smartreach Credential",
 			"id": "80158844-722a-4610-a91b-24885f8ffcea",
 			"protocolProfileBehavior": {
